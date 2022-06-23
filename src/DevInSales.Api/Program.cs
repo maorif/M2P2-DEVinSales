@@ -41,7 +41,7 @@ builder.Services.AddSwaggerGen(c =>
             Url = new Uri("https://github.com/DEVin-Way2-Pixeon-Paradigma/M2P2-DEVinSales")
         }
     });
-    var xmlFile = "DevInSales.API.xml";
+    var xmlFile = "DevInSales.Api.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
 
     c.IncludeXmlComments(xmlPath);
