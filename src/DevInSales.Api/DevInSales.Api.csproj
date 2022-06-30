@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DevInSales.Core\DevInSales.Core.csproj" />
+    <ProjectReference Include="..\DevInSales.Identity\DevInSales.Identity.csproj" />
   </ItemGroup>
 
 </Project>
