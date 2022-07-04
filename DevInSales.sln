@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevInSales.Api", "src\DevIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevInSales.Identity", "src\DevInSales.Identity\DevInSales.Identity.csproj", "{78C892C1-7B8A-4A87-88E3-8BF57F480D0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevInSales.Application", "src\DevInSales.Application\DevInSales.Application.csproj", "{07542335-3F97-4421-AD5F-366F829D9F9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,10 +34,15 @@ Global
 		{78C892C1-7B8A-4A87-88E3-8BF57F480D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78C892C1-7B8A-4A87-88E3-8BF57F480D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78C892C1-7B8A-4A87-88E3-8BF57F480D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07542335-3F97-4421-AD5F-366F829D9F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07542335-3F97-4421-AD5F-366F829D9F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07542335-3F97-4421-AD5F-366F829D9F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07542335-3F97-4421-AD5F-366F829D9F9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E35FB3C7-9EAD-4836-84A4-0E674E2907A8} = {1D1B14E9-6F6C-4920-B255-B9730B354EEA}
 		{9F3EBC67-4DC4-4AC4-BB16-63E33D43EA90} = {1D1B14E9-6F6C-4920-B255-B9730B354EEA}
 		{78C892C1-7B8A-4A87-88E3-8BF57F480D0C} = {1D1B14E9-6F6C-4920-B255-B9730B354EEA}
+		{07542335-3F97-4421-AD5F-366F829D9F9B} = {1D1B14E9-6F6C-4920-B255-B9730B354EEA}
 	EndGlobalSection
 EndGlobal
